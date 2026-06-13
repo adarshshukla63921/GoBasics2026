@@ -1,5 +1,12 @@
 package main
 
+// what are imports ??
+
+// this is how you access functionality in other packages. 
+// pacakges are imported using the import keyword. you can import multiple packages at once using brackets.
+// use : packageName.functionName to access the function in that package , given that it is an exported function
+
+// the below is a factored import statement
 import (
 	"fmt"
 	mathutil "package_in_go/math_util" // mathutil is an alias for the package.

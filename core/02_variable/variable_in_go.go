@@ -34,7 +34,8 @@ func main(){
 
 	const fixedValue = "i will learn go"
 	// fixedValue = "not now" will cause error as constants cannot be reassgined.
-
+	// const cannot be declared using := 
+	// const can be numeric , string or boolean values.
 
 
 }
